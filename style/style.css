@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'Graphik LCG';
+  src: url('../fonts/GraphikLCG-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Graphik LCG';
+  src: url('../fonts/GraphikLCG-Semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Graphik LCG, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn__white {
+  color: #000000;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.btn__color {
+  background-color: #FF6336;
+  color: #FFFFFF;
+  border: none;
+  border-color: #FF6336;
+}
+
+.header {}
+
+.menu {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.header__menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1340px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu__logo {}
+
+.menu__logo-img {}
+
+.menu__navbar {}
+
+.navbar {
+  padding-left: 50px;
+  padding-right: 335px;
+}
+
+.navbar__list {
+  display: flex;
+  gap: 50px;
+}
+
+.navbar__list-item {}
+
+.navbar__list-link {}
+
+.menu__btn {
+  display: flex;
+  gap: 10px;
+}
+
+.header__menu-btn {
+  width: 120px;
+  height: 45px;
+}
+
+.header__content {}
