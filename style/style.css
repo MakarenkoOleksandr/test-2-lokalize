@@ -65,7 +65,7 @@ a {
 }
 
 .btn__color {
-  background-color: #FF6336;
+  background-color: #ff6336;
   color: #FFFFFF;
   border: none;
   border-color: #FF6336;
@@ -119,4 +119,6 @@ a {
   height: 45px;
 }
 
-.header__content {}
+.header__content {
+  display: flex;
+}
